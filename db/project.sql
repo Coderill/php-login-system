@@ -3,9 +3,9 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 03, 2017 at 08:33 PM
--- Server version: 10.1.16-MariaDB
--- PHP Version: 5.6.24
+-- Generation Time: Jul 22, 2017 at 01:00 PM
+-- Server version: 10.1.19-MariaDB
+-- PHP Version: 5.6.28
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -39,9 +39,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `name`, `username`, `password`, `status`) VALUES
-(1, 'Superadmin', 'superadmin', 'superadmin', '1'),
-(29, 'Omi', 'omi', '12345', '1'),
-(30, 'Limon', 'limon', '54321', '1');
+(1, 'Superadmin', 'superadmin', 'superadmin', '1');
 
 --
 -- Indexes for dumped tables
